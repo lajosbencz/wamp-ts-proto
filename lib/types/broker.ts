@@ -4,7 +4,8 @@ import {
   KwArgs,
   PrimitiveType,
   URI,
-  PayloadPassthruDetails, MatchType,
+  PayloadPassthruDetails,
+  MatchType,
 } from '../types.js'
 
 export interface SubscriptionDetails {

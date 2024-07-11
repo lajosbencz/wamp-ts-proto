@@ -27,6 +27,8 @@ export type ProtocolType = 'wamp.2.json' | 'wamp.2.msgpack' | 'wamp.2.cbor'
 
 export type SerializerType = 'json' | 'msgpack' | 'cbor'
 
+export type TransportType = 'websocket' | 'rawsocket'
+
 export interface ISerializer {
   type: SerializerType
   isBinary: boolean
