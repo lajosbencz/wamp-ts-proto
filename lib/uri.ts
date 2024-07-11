@@ -33,7 +33,7 @@ export enum ErrorURI {
   // custom
   TransportIdConflict = 'wamp.error.transport.id_conflict',
   SessionIdConflict = 'wamp.error.session.id_conflict',
-  OutOfSequenceId = 'wamp.error.out_of_sequence_id'
+  OutOfSequenceId = 'wamp.error.out_of_sequence_id',
 }
 
 export enum CloseURI {
