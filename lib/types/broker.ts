@@ -1,10 +1,10 @@
-import type {
+import {
   Args,
   ID,
   KwArgs,
   PrimitiveType,
   URI,
-  PayloadPassthruDetails,
+  PayloadPassthruDetails, MatchType,
 } from '../types.js'
 
 export interface SubscriptionDetails {
@@ -36,7 +36,7 @@ export interface PublicationType {
   id: ID
 }
 
-export type SubscribeOptionsMatch = 'exact' | 'prefix' | 'wildcard'
+export type SubscribeOptionsMatch = MatchType
 
 export interface SubscribeOptions {
   match?: SubscribeOptionsMatch

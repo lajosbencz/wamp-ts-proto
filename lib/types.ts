@@ -21,6 +21,8 @@ export interface NestedDictionary<T> {
   [key: string]: NestedDictionary<T> | T
 }
 
+export type MatchType = 'exact' | 'prefix' | 'wildcard'
+
 export type ProtocolType = 'wamp.2.json' | 'wamp.2.msgpack' | 'wamp.2.cbor'
 
 export type SerializerType = 'json' | 'msgpack' | 'cbor'

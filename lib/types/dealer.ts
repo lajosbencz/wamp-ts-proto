@@ -1,7 +1,7 @@
-import type {
+import {
   Args,
   ID,
-  KwArgs,
+  KwArgs, MatchType,
   PayloadPassthruDetails,
   Serializable,
   URI,
@@ -58,7 +58,7 @@ export interface CancelOptions {
   mode?: CancelOptionsMode
 }
 
-export type RegisterOptionsMatch = 'exact' | 'prefix' | 'wildcard'
+export type RegisterOptionsMatch = MatchType
 export type RegisterOptionsInvoke =
   | 'single'
   | 'roundrobin'
