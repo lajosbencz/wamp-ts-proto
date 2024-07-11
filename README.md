@@ -1,2 +1,3 @@
 # wamp-ts-proto
-WAMP Protocol files for TypeScript
+
+[WAMP Protocol](https://wamp-proto.org/wamp_latest_ietf.html) shared library for TypeScript
