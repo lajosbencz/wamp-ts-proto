@@ -29,6 +29,11 @@ export enum ErrorURI {
   Timeout = 'wamp.error.timeout',
   Canceled = 'wamp.error.canceled',
   Killed = 'wamp.error.killed',
+
+  // custom
+  TransportIdConflict = 'wamp.error.transport.id_conflict',
+  SessionIdConflict = 'wamp.error.session.id_conflict',
+  OutOfSequenceId = 'wamp.error.out_of_sequence_id'
 }
 
 export enum CloseURI {
